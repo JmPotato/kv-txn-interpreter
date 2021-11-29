@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/JmPotato/kv-txn-interpreter/transaction"
-	clientv3 "go.etcd.io/etcd/client/v3"
+	"go.etcd.io/etcd/clientv3"
 )
 
 type EtcdTxnResponse clientv3.TxnResponse
